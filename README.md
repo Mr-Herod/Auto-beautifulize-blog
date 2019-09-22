@@ -5,4 +5,7 @@
 #   然后双击运行该程序
 #   会得到一个‘out.txt’文件，即为美化后的文件。
 #   打开该文件将其中内容复制到CSDN博客编写页面即可
-  
+#   Before
+#   ![Image text](https://raw.githubusercontent.com/Mr-Herod/Auto-beautifulize-blog/master/img-folder/before.png)
+#   After
+#   ![Image text](https://raw.githubusercontent.com/Mr-Herod/Auto-beautifulize-blog/master/img-folder/after.png)
