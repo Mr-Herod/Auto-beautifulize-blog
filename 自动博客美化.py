@@ -45,6 +45,10 @@ content.append("\n")
 content.append("\n")
 content.append("## AC代码：")
 content.append("\n")
+content.append('```cpp')
+content.append("\n")
+content.append("\n")
+content.append('```')
 content.append("\n")
 with open("out.txt","w") as f:
     for i in content:
