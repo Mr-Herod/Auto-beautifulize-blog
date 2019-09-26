@@ -50,7 +50,7 @@ content.append("\n")
 content.append("\n")
 content.append('```')
 content.append("\n")
-with open("out.txt","w") as f:
+with open("out.txt","w",encoding='utf-8') as f:
     for i in content:
         f.write(i)
         f.write('\n')
