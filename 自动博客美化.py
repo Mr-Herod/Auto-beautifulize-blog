@@ -1,5 +1,5 @@
 def main():
-    with open("C:\\Users\\13686\\Desktop\\CSDN博客自动美化\\in.txt","r",encoding='utf-8') as f:
+    with open("in.txt","r",encoding='utf-8') as f:
         content = f.read().split("\n")
     print("Reading file succeeded !!!")
     mode = eval(input("Please choose a mode:\n1、For codeforces    2、For HDU\n"))
@@ -10,7 +10,7 @@ def main():
     content.append("\n## 解题思路：\n\n")
     content.append("## AC代码：\n")
     content.append('```cpp\n\n```\n')
-    with open("C:\\Users\\13686\\Desktop\\CSDN博客自动美化\\out.txt","w",encoding='utf-8') as f:
+    with open("out.txt","w",encoding='utf-8') as f:
         for i in content:
             f.write(i)
             f.write('\n')
